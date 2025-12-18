@@ -216,7 +216,7 @@ var image = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
 // ... (see full code in src/cities/)
 ```
 
-## 📈 Results & Visualizations
+## Results & Visualizations
 
 ### Sample Outputs
 
