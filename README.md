@@ -1,7 +1,5 @@
 # Urban Heat Islands Prediction Using Machine Learning and Geospatial Modeling
 
-**Author:** Sadhil Mehta  
-
 [![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Enabled-green.svg)](https://earthengine.google.com/)
 
 ## Overview
