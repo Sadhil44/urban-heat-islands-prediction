@@ -165,7 +165,7 @@ Percentage of urban areas with dangerous thermal stress (UTFVI > 0.05):
 - 🟡 **NYC**: 38.3%
 - 🟢 **Singapore**: 44.2% (but well-managed)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
