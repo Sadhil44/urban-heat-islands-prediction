@@ -84,12 +84,6 @@ var startDate = '2022-01-01';
 var endDate = '2022-12-31';
 ```
 
-**Recommendations:**
-- **Summer**: Maximum UHI effect
-- **Winter**: Less pronounced UHI
-- **Full year**: Average conditions
-- **Avoid rainy seasons**: Cloud cover issues
-
 ### Step 3: Customize the Script
 
 Use this template (based on NYC code):
@@ -212,109 +206,6 @@ var stats = lst.reduceRegion({
 print('Statistics:', stats);
 // Copy-paste from console into spreadsheet
 ```
-
-## Troubleshooting
-
-### Error: "User memory limit exceeded"
-
-**Solution**: Reduce the AOI size or increase scale parameter
-
-```javascript
-// Change scale from 30 to 60 or 100
-var stats = lst.reduceRegion({
-    scale: 100,  // Increased from 30
-    // ...
-});
-```
-
-### Error: "Too many cloud-covered images"
-
-**Solution**: Adjust date range or use different season
-
-```javascript
-// Try different months
-var startDate = '2022-03-01';  // Spring
-var endDate = '2022-05-31';
-
-// Or expand date range
-var startDate = '2021-01-01';
-var endDate = '2022-12-31';
-```
-
-### Map doesn't show anything
-
-**Check**:
-1. AOI coordinates are correct (longitude first!)
-2. Date range contains available Landsat data
-3. Area isn't completely cloud-covered
-4. "Run" button was clicked
-
-### Results seem incorrect
-
-**Verify**:
-1. AOI covers the right area (use `Map.centerObject(aoi, 10)`)
-2. Date range is appropriate for season
-3. Landsat 8 data is available for that region
-4. Scale is set to 30m (not too coarse)
-
-## Advanced Customization
-
-### Change Color Palette
-
-```javascript
-var lst_vis = {
-    min: 10,    // Adjust min temperature
-    max: 45,    // Adjust max temperature
-    palette: [
-        '0000FF',  // Blue (cold)
-        '00FFFF',  // Cyan
-        '00FF00',  // Green
-        'FFFF00',  // Yellow
-        'FF0000'   // Red (hot)
-    ]
-};
-```
-
-### Add Additional Indices
-
-```javascript
-// NDBI (Built-up Index)
-var ndbi = image.normalizedDifference(['SR_B6', 'SR_B5'])
-                .rename('NDBI');
-Map.addLayer(ndbi, {min: -1, max: 1, palette: ['blue', 'white', 'red']}, 
-             'Built-up Areas');
-
-// NDWI (Water Index)
-var ndwi = image.normalizedDifference(['SR_B3', 'SR_B5'])
-                .rename('NDWI');
-Map.addLayer(ndwi, {min: -1, max: 1, palette: ['white', 'blue']}, 
-             'Water Bodies');
-```
-
-### Compare Multiple Years
-
-```javascript
-// Load 2017 data
-var image2017 = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
-    .filterDate('2017-05-01', '2017-12-31')
-    .filterBounds(aoi)
-    .map(applyScaleFactors)
-    .map(maskL8sr)
-    .median();
-
-// Calculate LST for 2017
-var lst2017 = /* calculate LST */;
-
-// Load 2022 data
-var image2022 = /* same process for 2022 */;
-var lst2022 = /* calculate LST */;
-
-// Calculate change
-var lstChange = lst2022.subtract(lst2017);
-Map.addLayer(lstChange, {min: -5, max: 5, palette: ['blue', 'white', 'red']}, 
-             'LST Change 2017-2022');
-```
-
 ## Resources
 
 - [Landsat 8 Data Users Handbook](https://www.usgs.gov/landsat-missions/landsat-8-data-users-handbook)
