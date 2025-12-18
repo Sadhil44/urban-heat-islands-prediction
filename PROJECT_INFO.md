@@ -1,6 +1,6 @@
 # Urban Heat Islands Prediction - Project Information
 
-## 📋 Repository Overview
+## Repository Overview
 
 This is a comprehensive research project analyzing Urban Heat Islands across 10 global cities using satellite imagery and three predictive modeling approaches.
 
@@ -23,7 +23,7 @@ Total Files: 30+
 └── Supporting Files: Templates, configs, etc.
 ```
 
-## 🎯 Project Goals
+## Project Goals
 
 ### Primary Objectives
 1. **Compare predictive methods** for Urban Heat Island forecasting
@@ -37,7 +37,7 @@ Total Files: 30+
 - What percentage of cities experience dangerous thermal stress?
 - Can machine learning outperform traditional simulation methods?
 
-## 📊 Key Findings
+## Key Findings
 
 ### Model Performance Rankings
 1. **🥇 Random Forest Regression**: 92% accuracy (±1.01°C average error)
@@ -50,7 +50,7 @@ Total Files: 30+
 - **Policy interventions** (Singapore) can overcome natural climate limitations
 - **Informal settlements** show highest rate of heat accumulation
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Technology Stack
 - **Platform**: Google Earth Engine
@@ -83,7 +83,7 @@ Apply Predictive Models
 Validate & Compare Results
 ```
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 urban-heat-islands-prediction/
@@ -133,7 +133,7 @@ urban-heat-islands-prediction/
     └── coordinates/                # City boundary info
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Quick Start (3 minutes)
 1. Open [Google Earth Engine](https://code.earthengine.google.com/)
@@ -148,7 +148,7 @@ urban-heat-islands-prediction/
 3. Read [docs/USAGE.md](docs/USAGE.md)
 4. Analyze your own city using [src/TEMPLATE.js](src/TEMPLATE.js)
 
-## 📚 Documentation Index
+## Documentation Index
 
 ### For Beginners
 - Start → [QUICKSTART.md](QUICKSTART.md)
@@ -186,7 +186,7 @@ Students and researchers will learn:
 - Professional development (urban planners)
 - Citizen scientists interested in climate
 
-## 🌍 Real-World Impact
+## Real-World Impact
 
 ### Applications
 - **Urban Planning**: Identify heat-vulnerable neighborhoods
@@ -218,75 +218,3 @@ Students and researchers will learn:
 - Mitigation strategy effectiveness
 - Vulnerability mapping
 - Cost-benefit analysis of interventions
-
-## 🏆 Project Highlights
-
-### Achievements
-- ✅ Successfully analyzed 10 diverse global cities
-- ✅ Implemented 3 distinct predictive models
-- ✅ Created comprehensive open-source repository
-- ✅ Generated actionable urban planning insights
-- ✅ Validated results against actual 2022 data
-
-### Innovation
-- **First study** comparing all three methods across multiple cities
-- **Novel finding** on Singapore's green infrastructure effect
-- **Practical template** for analyzing any city worldwide
-- **Educational resource** for remote sensing education
-
-## 📞 Contact & Support
-
-### Getting Help
-- **Issues**: [GitHub Issues](https://github.com/yourusername/urban-heat-islands-prediction/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/urban-heat-islands-prediction/discussions)
-- **Email**: [Contact info in README]
-
-### Community
-- Share your findings using `#UrbanHeatIsland`
-- Contribute new cities or improvements
-- Translate documentation
-- Report bugs or suggest features
-
-## 📖 Related Resources
-
-### Academic Papers
-- Original research paper included in `docs/`
-- Methods based on peer-reviewed literature
-- References included in methodology
-
-### External Resources
-- [Google Earth Engine Documentation](https://developers.google.com/earth-engine)
-- [EPA Urban Heat Islands](https://www.epa.gov/heatislands)
-- [Landsat Science](https://www.usgs.gov/landsat-missions/science)
-
-## ⚖️ Usage Terms
-
-This is an educational research project. Code and documentation provided for learning and research purposes.
-
-### You Can
-- ✅ Use for academic research
-- ✅ Modify and extend the code
-- ✅ Share with attribution
-- ✅ Incorporate into educational materials
-
-### Please
-- 📝 Cite this work (see CITATION.md)
-- 🤝 Contribute improvements back
-- 💬 Share your findings
-- ⭐ Star the repository if useful
-
-## 🙏 Acknowledgments
-
-Special thanks to:
-- **Tippecanoe High School** for supporting independent research
-- **Google Earth Engine** for free platform access
-- **USGS/NASA** for Landsat program
-- **Open source community** for inspiration and tools
-
----
-
-**Project Status**: ✅ Complete & Maintained  
-**Last Updated**: December 2024  
-**Version**: 1.0.0  
-**Author**: Sadhil Mehta (Grade 12)  
-**Institution**: Tippecanoe High School, Tipp City, OH
