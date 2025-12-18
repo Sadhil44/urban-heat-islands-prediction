@@ -5,7 +5,7 @@
 
 [![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Enabled-green.svg)](https://earthengine.google.com/)
 
-## 🌍 Overview
+## Overview
 
 This research project investigates Urban Heat Islands (UHIs) across 10 major global cities using advanced geospatial analysis and predictive modeling. Urban Heat Islands are localized regions within metropolitan areas that experience significantly higher temperatures than surrounding rural areas, posing serious threats to public health, infrastructure, and urban sustainability.
 
@@ -19,7 +19,7 @@ This research project investigates Urban Heat Islands (UHIs) across 10 major glo
 - **Google Earth Engine Integration**: Leverages Landsat 8 satellite imagery for remote sensing analysis
 - **Comprehensive Metrics**: Calculates Land Surface Temperature (LST), UHI Index, and Urban Thermal Field Variance Index (UTFVI)
 
-## 📊 Study Cities
+## Study Cities
 
 The research analyzes cities with diverse characteristics to test model performance across different urban environments:
 
@@ -36,7 +36,7 @@ The research analyzes cities with diverse characteristics to test model performa
 | Toronto | Canada | Continental | Cold climate, seasonal UHI |
 | Istanbul | Turkey | Mediterranean | Complex topography, transcontinental |
 
-## 🛠️ Methodology
+## Methodology
 
 ### Data Source
 - **Satellite Data**: Landsat 8 Collection 2, Level 2 (2017-2022)
@@ -90,7 +90,7 @@ Calculate UHI Index & UTFVI → Compare Results
    UTFVI = (Ts - Tm) / Ts
    ```
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 urban-heat-islands-prediction/
@@ -129,7 +129,7 @@ urban-heat-islands-prediction/
 └── README.md
 ```
 
-## 🔬 Key Findings
+## Key Findings
 
 ### Model Performance Summary
 
@@ -239,7 +239,7 @@ Each city analysis generates:
 - `0.015-0.020`: Worse (Stronger UHI)
 - `> 0.020`: Worst (Strongest UHI)
 
-## 🔮 Future Work
+## Future Work
 
 - [ ] Expand to 20+ global cities
 - [ ] Incorporate additional environmental variables (wind, humidity, pollution)
@@ -248,47 +248,4 @@ Each city analysis generates:
 - [ ] Integrate socioeconomic vulnerability data
 - [ ] Create mitigation strategy recommendations
 
-## 📚 Citation
 
-If you use this code or methodology in your research, please cite:
-
-```bibtex
-@article{mehta2024uhi,
-  title={Prediction of Urban Heat Islands Using Machine Learning, Markov Chain Modeling, and Cellular Automation},
-  author={Mehta, Sadhil},
-  year={2024},
-  institution={Tippecanoe High School},
-  address={Tipp City, OH}
-}
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 🙏 Acknowledgments
-
-- **Google Earth Engine** for providing satellite imagery and computational infrastructure
-- **USGS/NASA Landsat Program** for Landsat 8 data
-- **EPA Heat Island Resources** for UHI background research
-- **Tippecanoe High School** for supporting this research
-
-## 📞 Contact
-
-**Sadhil Mehta**  
-- GitHub: [@sadhilmehta](https://github.com/sadhilmehta)
-- Email: [your-email@example.com]
-
-## 🌟 Star History
-
-If you find this project useful, please consider giving it a star! ⭐
-
----
-
-**Note**: This is a high school research project demonstrating the application of geospatial analysis and machine learning to environmental science. All code and methodologies are provided for educational purposes.
