@@ -26,7 +26,7 @@ Pick any city from the `src/cities/` folder:
 - `london.js` - Temperate climate UHI
 - `tokyo.js` - High-tech urban analysis
 
-## Step 3: Understand the Results (2 minutes)
+## Step 3: Understand the Results
 
 ### Map Layers You'll See
 
