@@ -90,8 +90,6 @@ urban-heat-islands-prediction/
 │
 ├── 📄 README.md                    # Main project overview
 ├── 📄 QUICKSTART.md                # 5-minute getting started guide
-├── 📄 CITATION.md                  # How to cite this work
-├── 📄 CONTRIBUTING.md              # Contribution guidelines
 ├── 🔒 .gitignore                   # Git ignore rules
 │
 ├── 📁 src/                         # Source code
@@ -132,89 +130,3 @@ urban-heat-islands-prediction/
 └── 📁 data/                        # Data directory (empty)
     └── coordinates/                # City boundary info
 ```
-
-## Getting Started
-
-### Quick Start (3 minutes)
-1. Open [Google Earth Engine](https://code.earthengine.google.com/)
-2. Copy code from `src/cities/nyc.js`
-3. Paste into Code Editor
-4. Click "Run"
-5. Explore the results!
-
-### Full Setup (30 minutes)
-1. Read [QUICKSTART.md](QUICKSTART.md)
-2. Try 3-5 example cities
-3. Read [docs/USAGE.md](docs/USAGE.md)
-4. Analyze your own city using [src/TEMPLATE.js](src/TEMPLATE.js)
-
-## Documentation Index
-
-### For Beginners
-- Start → [QUICKSTART.md](QUICKSTART.md)
-- Then → [docs/USAGE.md](docs/USAGE.md)
-- Finally → [src/README.md](src/README.md)
-
-### For Researchers
-- Start → [docs/methodology.md](docs/methodology.md)
-- Then → [docs/results_analysis.md](docs/results_analysis.md)
-- Finally → [docs/research_paper.pdf](docs/research_paper.pdf)
-
-### For Contributors
-- Start → [CONTRIBUTING.md](CONTRIBUTING.md)
-- Then → [src/TEMPLATE.js](src/TEMPLATE.js)
-- Finally → Open a Pull Request
-
-### For Citation
-- See → [CITATION.md](CITATION.md)
-
-## 🎓 Educational Value
-
-### Learning Outcomes
-Students and researchers will learn:
-- Remote sensing fundamentals
-- Google Earth Engine platform
-- Machine learning applications
-- Geospatial data analysis
-- Climate science concepts
-- Urban planning considerations
-
-### Suitable For
-- High school advanced placement students
-- Undergraduate environmental science
-- Graduate urban planning
-- Professional development (urban planners)
-- Citizen scientists interested in climate
-
-## Real-World Impact
-
-### Applications
-- **Urban Planning**: Identify heat-vulnerable neighborhoods
-- **Public Health**: Plan cooling center locations
-- **Policy Making**: Prioritize green infrastructure investments
-- **Climate Adaptation**: Monitor UHI trends over time
-- **Environmental Justice**: Highlight inequitable heat exposure
-
-### Cities That Could Benefit
-- Fast-growing cities in developing nations
-- Dense metropolitan areas
-- Cities with limited green space
-- Regions experiencing rapid climate change
-- Areas with vulnerable populations
-
-## 📈 Future Directions
-
-### Planned Improvements
-- [ ] Expand to 20+ cities
-- [ ] Add deep learning models (CNN, LSTM)
-- [ ] Incorporate additional variables (humidity, wind, pollution)
-- [ ] Real-time monitoring dashboard
-- [ ] Mobile app for ground truth validation
-- [ ] Integration with socioeconomic data
-
-### Research Opportunities
-- Seasonal UHI variation analysis
-- Climate change scenario projections
-- Mitigation strategy effectiveness
-- Vulnerability mapping
-- Cost-benefit analysis of interventions
