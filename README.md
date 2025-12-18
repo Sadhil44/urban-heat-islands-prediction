@@ -1,7 +1,6 @@
 # Urban Heat Islands Prediction Using Machine Learning and Geospatial Modeling
 
 **Author:** Sadhil Mehta  
-**Grade:** 12th Grade, Tippecanoe High School, Tipp City, OH
 
 [![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Enabled-green.svg)](https://earthengine.google.com/)
 
