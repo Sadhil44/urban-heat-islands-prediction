@@ -1,0 +1,52 @@
+# Google Earth Engine
+*.geojson
+*.tif
+*.tiff
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+
+# Results
+results/exports/
+results/temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Python (if using Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Documentation builds
+docs/_build/
+site/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
