@@ -210,49 +210,8 @@ var center = ee.Geometry.Point([longitude, latitude]);
 var aoi = center.buffer(50000); // 50km radius
 ```
 
-## Best Practices
-
-### 1. Data Quality
-- ✅ Use summer data for maximum UHI
-- ✅ Check for sufficient clear images
-- ✅ Verify Landsat 8 coverage
-
-### 2. Performance
-- ✅ Keep AOI reasonably sized
-- ✅ Use scale parameter wisely (30m for detail, 100m for speed)
-- ✅ Limit date range for faster processing
-
-### 3. Validation
-- ✅ Compare with ground truth data
-- ✅ Verify temperature ranges make sense
-- ✅ Check that urban areas are hotter than parks
-
-### 4. Documentation
-- ✅ Comment your modifications
-- ✅ Document unusual findings
-- ✅ Save your results systematically
-
-## Troubleshooting
-
-### Issue: Out of Memory Error
-**Solution**: Increase scale parameter or reduce AOI size
-
-### Issue: No Data Appears
-**Solution**: Check date range, AOI coordinates, and cloud cover
-
-### Issue: Unexpected Results
-**Solution**: Verify preprocessing steps and compare with known patterns
-
-## Contributing
-
-Want to add a new city? See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
-
 ## Resources
 
 - [Google Earth Engine Documentation](https://developers.google.com/earth-engine)
 - [Landsat 8 Handbook](https://www.usgs.gov/landsat-missions/landsat-8-data-users-handbook)
 - [Full Methodology](../docs/methodology.md)
-
----
-
-**Need help?** Open an issue or discussion on GitHub.
